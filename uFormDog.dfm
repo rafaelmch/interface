@@ -1,0 +1,91 @@
+object frmDogInterface: TfrmDogInterface
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  Caption = 'Dog Interface'
+  ClientHeight = 498
+  ClientWidth = 563
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object panelDog: TPanel
+    Left = 0
+    Top = 0
+    Width = 563
+    Height = 498
+    Align = alClient
+    TabOrder = 0
+    ExplicitLeft = 152
+    ExplicitTop = 176
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object btnAllMethods: TButton
+      Left = 200
+      Top = 96
+      Width = 145
+      Height = 57
+      Caption = 'All Methods'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+      OnClick = btnAllMethodsClick
+    end
+    object btnName: TButton
+      Left = 200
+      Top = 168
+      Width = 145
+      Height = 57
+      Caption = 'Name'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 1
+      OnClick = btnNameClick
+    end
+    object btnAge: TButton
+      Left = 200
+      Top = 240
+      Width = 145
+      Height = 57
+      Caption = 'Age'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 2
+      OnClick = btnAgeClick
+    end
+    object btnWalks: TButton
+      Left = 200
+      Top = 312
+      Width = 145
+      Height = 57
+      Caption = 'Walks'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 3
+      OnClick = btnWalksClick
+    end
+  end
+end
